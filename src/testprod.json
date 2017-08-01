@@ -1,0 +1,220 @@
+{
+  "products" : {
+    "pageSize" : 40,
+    "productCount" : 2469,
+    "currentPage" : 1,
+    "sortOptions" : [ {
+      "restURL" : "N-agc?Ns=product.primarySKU.visibilityIndex%7C1",
+      "label" : "Featured",
+      "selected" : true
+    }, {
+      "restURL" : "N-agc?Ns=product.sort.PriceValue_plist5080029%7C0",
+      "label" : "Price: Low To High",
+      "selected" : false
+    }, {
+      "restURL" : "N-agc?Ns=product.sort.PriceValue_plist5080029%7C1",
+      "label" : "Price: High To Low",
+      "selected" : false
+    }, {
+      "restURL" : "N-agc?Ns=product.pvRating%7C1",
+      "label" : "User Rating",
+      "selected" : false
+    } ],
+    "productList" : [ {
+      "restURL" : "01-690-76154154SETLS",
+      "discount" : 2901.0,
+      "productName" : "Men's BC4 Flight Timer",
+      "brandName" : "Oris",
+      "priceRetail" : 4300.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/oris/ashford/01-690-76154154SETLS_FSA.jpg" ],
+      "priceCurrent" : 1399.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 67.465116,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "01-733-7649-4031-MB",
+      "discount" : 1127.5,
+      "productName" : "Men's Big Crown",
+      "brandName" : "Oris",
+      "priceRetail" : 2050.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/oris/big-crown/01-733-7649-4031-MB_FSA.jpg" ],
+      "priceCurrent" : 922.5,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "Sale",
+      "savingPercentage" : 55.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R20484112",
+      "discount" : 1330.0,
+      "productName" : "Men's Integral",
+      "brandName" : "Rado",
+      "priceRetail" : 1900.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/integral/R20484112_FSA.jpg" ],
+      "priceCurrent" : 570.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 70.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "39-47-16-16-04",
+      "discount" : 5460.0,
+      "productName" : "Men's Sport Evolutio...",
+      "brandName" : "Glashutte",
+      "priceRetail" : 13000.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/glashutte/ashford/39-47-16-16-04_FSA.jpg", "http://devd.alliancetime.com/images/catalog/glashutte/ashford/39-47-16-16-04_BSA.jpg" ],
+      "priceCurrent" : 7540.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "Sale",
+      "savingPercentage" : 42.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R15329103",
+      "discount" : 896.0,
+      "productName" : "Men's D-Star",
+      "brandName" : "Rado",
+      "priceRetail" : 1395.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/d-star/R15329103_FSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/d-star/R15329103_BSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/d-star/R15329103_RSA.jpg" ],
+      "priceCurrent" : 499.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 64.229391,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "39-31-46-05-03",
+      "discount" : 4600.0,
+      "productName" : "Men's Sport Evolutio...",
+      "brandName" : "Glashutte",
+      "priceRetail" : 8100.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/glashutte/ashford/39-31-46-05-03_FSA.jpg", "http://devd.alliancetime.com/images/catalog/glashutte/ashford/39-31-46-05-03_BSA.jpg" ],
+      "priceCurrent" : 3500.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 56.790123,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R12304153",
+      "discount" : 511.0,
+      "productName" : "Men's Original",
+      "brandName" : "Rado",
+      "priceRetail" : 850.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/original/R12304153_FSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/original/R12304153_BSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/original/R12304153_RSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/original/R12304153_CSA.jpg" ],
+      "priceCurrent" : 339.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 60.117647,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "A1064-6",
+      "discount" : 4355.0,
+      "productName" : "Men's Turbine Racing",
+      "brandName" : "Perrelet",
+      "priceRetail" : 6350.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/perrelet/ashford/A1064-6_FSA.jpg" ],
+      "priceCurrent" : 1995.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 68.582677,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R18683103",
+      "discount" : 1021.0,
+      "productName" : "Men's Diastar Chrono...",
+      "brandName" : "Rado",
+      "priceRetail" : 1450.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/ashford/R18683103_FSA.jpg" ],
+      "priceCurrent" : 429.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 70.413793,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "BR01-TURN-COORDINATO",
+      "discount" : 4020.0,
+      "productName" : "Men's Aviation BR01 ...",
+      "brandName" : "Bell and Ross",
+      "priceRetail" : 6000.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/bell-and-ross/ashford/BR01-TURN-COORDINATO_FSA.jpg" ],
+      "priceCurrent" : 1980.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 67.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "173559-1002",
+      "discount" : 91720.8,
+      "productName" : "Men's Classique",
+      "brandName" : "Chopard",
+      "priceRetail" : 127390.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/chopard/classique/173559-1002_FSA.jpg", "http://devd.alliancetime.com/images/catalog/chopard/classique/173559-1002_BSA.jpg", "http://devd.alliancetime.com/images/catalog/chopard/classique/173559-1002_RSA.jpg", "http://devd.alliancetime.com/images/catalog/chopard/classique/173559-1002_CSA.jpg" ],
+      "priceCurrent" : 35669.2,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "Sale",
+      "savingPercentage" : 72.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "100-13-01-01-04",
+      "discount" : 18330.0,
+      "productName" : "Men's Senator Diary",
+      "brandName" : "Glashutte",
+      "priceRetail" : 39000.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/glashutte/ashford/100-13-01-01-04_FSA.jpg", "http://devd.alliancetime.com/images/catalog/glashutte/ashford/100-13-01-01-04_BSA.jpg" ],
+      "priceCurrent" : 20670.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "Sale",
+      "savingPercentage" : 47.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R13434122",
+      "discount" : 2601.0,
+      "productName" : "Men's Sintra",
+      "brandName" : "Rado",
+      "priceRetail" : 3400.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/sintra/R13434122_FSA.jpg", "http://devd.alliancetime.com/images/catalog/rado/sintra/R13434122_RSA.jpg" ],
+      "priceCurrent" : 799.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 76.5,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "R27816162",
+      "discount" : 775.0,
+      "productName" : "Men's Rado True",
+      "brandName" : "Rado",
+      "priceRetail" : 1250.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/rado/rado-true/R27816162_FSA.jpg" ],
+      "priceCurrent" : 475.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "",
+      "savingPercentage" : 62.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }, {
+      "restURL" : "450-MMMR42RL-K",
+      "discount" : 154972.0,
+      "productName" : "Men's Haute Horology...",
+      "brandName" : "Harry Winston",
+      "priceRetail" : 292400.0,
+      "images" : [ "http://devd.alliancetime.com/images/catalog/harry-winston/ashford/450-MMMR42RL-K_FSA.jpg", "http://devd.alliancetime.com/images/catalog/harry-winston/ashford/450-MMMR42RL-K_BSA.jpg", "http://devd.alliancetime.com/images/catalog/harry-winston/ashford/450-MMMR42RL-K_RSA.jpg", "http://devd.alliancetime.com/images/catalog/harry-winston/ashford/450-MMMR42RL-K_CSA.jpg" ],
+      "priceCurrent" : 137428.0,
+      "retailPriceLabelText" : "Retail",
+      "salePriceLabelText" : "Sale",
+      "savingPercentage" : 53.0,
+      "displaySaleAndSavingSection" : true,
+      "showVaultSold" : { }
+    }]
+  }
+}

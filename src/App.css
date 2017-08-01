@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  ##height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+div.App-Navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+div.App-Navigation ul.list ul {
+    float: left;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .app-dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.app-dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.app-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+.images {width:310px;float:left;}
+#product-img {border: 1px solid #ccc; padding: 3px; float: left; margin-top: 20px;}
+#product-img img {max-width:300px!important;height:auto;}
+#product-img-zoom {text-align: center; margin-top: 3px;}
+#product-img-zoom a {color: #333; text-decoration: none; padding-left: 20px; font-size: 90%;}
+#product-img-zoom a:hover {text-decoration: underline;}
+#product-details {margin-left: 325px; margin-top: 20px;}
+#product-details h1 {margin-top: 0;}
+#product-details #quantity {width: 20px;}
+#product-price {font-weight: bold;}
+
+
+
+
+
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+html {
+
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active, a:hover {
+	outline: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{ margin:0px; padding:0px;}
+
+
+/***********************  TOP Bar ********************/
+.sidebar{ width:22%;  background-color:#000;transition: all 0.5s  ease-in-out; }
+.bg-defoult{background-color:#222;}
+.sidebar ul{ list-style:none; margin:0px; padding:0px; }
+.sidebar li a,.sidebar li a.collapsed.active{ display:block; padding:8px 12px; color:#fff;border-left:0px solid #dedede;  text-decoration:none}
+.sidebar li a.active{background-color:#000;border-left:5px solid #dedede; transition: all 0.5s  ease-in-out}
+.sidebar li a:hover{background-color:#000 !important;}
+.sidebar li a i{ padding-right:5px;}
+.sidebar ul li .sub-menu li a{ position:relative}
+.sidebar ul li .sub-menu li a:before{
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.sidebar ul li .sub-menu li a:hover:after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 5px;
+    background-color: #111;
+    height: 100%;
+}
+.sidebar ul li .sub-menu li a:hover{ background-color:#222; padding-left:20px; transition: all 0.5s  ease-in-out}
+.sub-menu{ border-left:5px solid #dedede;}
+	.sidebar li a .nav-label,.sidebar li a .nav-label+span{ transition: all 0.5s  ease-in-out}
+	.sidebar.fliph li a .nav-label,.sidebar.fliph li a .nav-label+span{ display:none;transition: all 0.5s  ease-in-out}
+	.sidebar.fliph {
+    width: 42px;transition: all 0.5s  ease-in-out;
+}
+	
+.sidebar.fliph li{ position:relative ;float: left;}
+.sidebar.fliph .sub-menu {
+    position: absolute;
+    left: 39px;
+    top: 0;
+    background-color: #222;
+    width: 150px;
+    z-index: 100;
+}
+.sidebar li a i{
+    float: left;
+}
+
+/*paging CSS begin*/
+
+.paginationDiv {display: block; margin-top: 50px; color: #535353; line-height: 29px; text-align: center;margin-left: 52px;}
+.paginationDiv a {float: left; height: 30px; padding: 0 7px; vertical-align: middle; text-decoration: none; cursor: pointer;}
+.paginationDiv .next,.paginationDiv .prev {background-color: #f3f4f8; border: 1px solid #e5e5e5;}
+.paginationDiv .next:hover,.paginationDiv .prev:hover {background-color: #ddd; border: 1px solid #ddd;}
+.paginationDiv .next:before,.paginationDiv .prev:before {content: 'Previous'; font-size: 12px }
+.paginationDiv .disable.next,.paginationDiv .prev.disable {background-color: #f3f4f8; border-color: #e5e5e5; cursor: no-drop;}
+.paginationDiv .disable.next:before,.paginationDiv .prev.disable:before {color: #a0a0a0;border-color: #337ab7 }
+.paginationDiv .next:before {content: 'Next';font-size: 12px}
+.paginationDiv .num {margin-left: -1px; padding: 0 7px; border: 1px solid #e5e5e5; color: #707070 }
+.paginationDiv .num.current{background-color: #337ab7; border-color: #337ab7; color: #fff }
+.paginationDiv .num:hover {background-color: #ddd; border-color: #ddd; color: #1a1a1a }
+
+/*paging CSS end*/
